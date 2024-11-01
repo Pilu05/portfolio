@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Sailor Moon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a la página de Sailor Moon</h1> 
+        <button id="btn-generar">Generar Frase Aleatoria</button>
+        <footer id="footer">
+          <p id="frase"></p>
+        </footer>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#personajes">Personajes</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header> 
+
+    <section id="inicio">
+        <h2>Sobre Sailor Moon</h2>
+        <p>Sailor Moon es una serie icónica de anime que cuenta la historia de una guerrera mágica que lucha por el amor y la justicia.</p>
+    </section>
+
+    <section id="personajes">
+        <h2>Personajes principales</h2>
+        <ul>
+            <li>Sailor Moon</li>
+            <li>Sailor Mercury</li>
+            <li>Sailor Mars</li>
+            <li>Sailor Jupiter</li>
+            <li>Sailor Venus</li>
+        </ul>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería</h2>
+        <div class="gallery">
+            <img src="imagenes/sailor-moon-1.jpg" alt="Imagen de Sailor Moon">
+            <img src="imagenes/sailor-moon-2.jpg" alt="Imagen de Sailor Moon">
+            <!-- Puedes agregar más imágenes aquí -->
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Página de Sailor Moon. Todos los derechos reservados.</p>
+    </footer>
+    <script src="./index.js"></script> 
+  </body>
+</html>
